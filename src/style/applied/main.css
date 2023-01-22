@@ -1,0 +1,408 @@
+/* Varibles */
+
+@import url(../import/var.css);
+
+/* ------------------------------------ */
+
+
+/* Header and Body */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--white);
+}
+
+header {
+    background-color: var(--black);
+    height: 94px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.web-name {
+    position: relative;
+    left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.logo {
+    position: relative;
+    left: 25px;
+}
+
+.circle {
+    border-radius: 999px;
+}
+
+/* ------------------------------------ */
+
+/* Navigation */
+
+nav {
+    width: 221px;
+    height: 880px;
+    background-color: var(--black);
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: left;
+}
+
+.nav-item {
+    position: relative;
+    left: 20px;
+    margin: 15px 0px;
+}
+
+
+
+nav svg {
+    color: var(--outline);
+    position: relative;
+    top: 5px;
+}
+
+hr {
+    color: var(--outline);
+}
+
+.pfp {
+    position: relative;
+    top: 12px;
+    right: 5px;
+}
+
+nav {
+    color: var(--outline);
+}
+
+.nav-home-div {
+    color: var(--white);
+}
+
+.user-info {
+    color: var(--white);
+}
+
+.nav-home-div svg {
+    color: var(--white);
+}
+
+
+
+.nav-item a {
+    color: var(--outline);
+    text-decoration: none;
+}
+
+.nav-item button {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    color: var(--outline);
+    font-size: 16px;
+}
+
+.active {
+    color: var(--white);
+}
+
+.nav-item button {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    color: var(--outline);
+    font-size: 16px;
+
+}
+
+.nav-item button span {
+    position: relative;
+    top: -2px;
+}
+/* ------------------------------------ */
+
+
+/* Main Content */
+
+main {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    position: absolute;
+    top: 117px;
+    left: 260px;    
+}
+
+
+.desc {
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 26pt;
+    font-style: normal;
+    width: 1086px;
+}
+
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--black);
+    width: 1086px;
+    height: 71px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    background-color: var(--transparent);
+    border: 0px;
+    color: var(--white);
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    left: 10px;
+    width: 1000px;
+}
+
+.search-bar ::placeholder {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.search-bar input:focus {
+    background-color: var(--transparent);
+    border: 0px;
+    outline: none;
+    color: var(--white);
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    left: 10px;
+
+}
+
+.search-bar svg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+}
+
+.suggestions {
+    display: flex;
+    width: 1086px;
+    height: 141px;
+    background-color: var(--black);
+    position: relative;
+    bottom: 3px;
+    transition: background-color .3s;
+}
+
+.suggestions:hover {
+    background-color: var(--dark-grey);
+}
+
+.poster {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.title {
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: 1000;
+    height: fit-content;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px;
+    right: 660px;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+main .list {
+    background-color: var(--black);
+    border-radius: 5px;
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+main .recommender {
+    position: absolute;
+    background-color: var(--black);
+    border-radius: 5px;
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.list-title {
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.recommend-title {
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    padding: 10px 0px;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.recommender hr {
+    position: relative;
+    bottom: 30px;
+    
+}
+
+main .item {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    font-size: 20px;
+    transition: background-color .3s;
+}
+
+main .item:hover {
+    background-color: var(--dark-grey);
+}
+
+main .recommender {
+    position: absolute;
+    top: 320px;
+    left: 600px;
+}
+
+main .list hr {
+    position: absolute;
+    left: 40px;
+    top: 410px;
+}
+
+main .recommender hr {
+    position: relative;
+    bottom: 35px;
+
+}
+
+main .recommender .edit {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .recommender .edit ::placeholder {
+    color: var(--grey-white)
+}
+
+
+main .recommender .edit input {
+    color: var(--white);
+    background-color: var(--transparent);
+    border: 0px;
+    width: fit-content;
+    font-size: 24px;
+}
+
+main .recommender .edit input:focus {
+    outline: none;    
+}
+
+main .recommender .edit {
+    position: absolute;
+    left: 235px;
+    top: -5px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+main .recommender .edit input {
+    width: 50px;
+}
+
+.recommend-button {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    background-color: var(--light-grey);
+    border: none;
+    border-radius: 5px;
+}
+
+.recommend-button svg {
+    background-color: transparent;
+    color: var(--white);
+    position: relative;
+    top: 2px;
+    color: var(--white);
+}
+
+.recommend-button {
+    transition: background-color .3s;
+}
+
+.recommend-button:hover {
+    background-color: var(--outline);
+}
+
+
+.filter-recommendations {
+    background-color: var(--outline);
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    width: 69px;
+    height: 43px;
+    top: 15px;
+    right: -130px;
+    transition: background-color .3s;
+}
+
+.filter-recommendations:hover {
+    background-color: var(--light-grey);
+}
+
+.filter-recommendations i {
+    font-size: 16px;
+    color: var(--white);
+}
+
+
+/* ------------------------------------ */

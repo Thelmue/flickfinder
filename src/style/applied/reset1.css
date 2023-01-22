@@ -1,0 +1,126 @@
+/* Varibles */
+
+@import url(../import/var.css);
+
+
+/* ------------------------------------ */
+
+body {
+    background-color: var(--background);
+    color: var(--white);
+}
+
+/* Container */
+
+.login-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 210px;
+}
+/* ------------------------------------ */
+
+/* Positioning */
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.input {
+    width: 260pt;
+    height: 50pt;
+    border: 1.5pt solid var(--outline);
+    border-radius: 50px;
+    background-color: #1a1a1a;
+    margin: 15pt 0pt;
+    color: var(--grey-white);
+    padding: 0px 20pt;
+    font-size: 13pt;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input:focus {
+    outline: transparent;
+}
+
+
+
+.remember {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    margin-top: 30px;
+}
+
+#push {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.reset {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    text-decoration: none;
+    color: var(--grey-white);
+}
+
+.create {
+    text-decoration: none;
+    color: var(--outline);
+    padding-left: 5px;
+}
+
+.p {
+    position: absolute;
+    left: auto;
+    bottom: -8%;
+}
+
+
+.login-btn {
+    position: absolute;
+    bottom: -20%;
+    background-color: var(--background);
+    border-radius: 50px;
+    border-width: 0px;
+    width: 176px;
+    height: 45px;
+    color: var(--white);
+    background-color: var(--light-grey);
+    font-size: 18pt;
+    padding-bottom: 2.5px;
+    transition: background-color .3s;
+}
+
+.login-btn:hover {
+    position: absolute;
+    bottom: -20%;
+    background-color: var(--background);
+    border-radius: 50px;
+    border-width: 0px;
+    width: 176px;
+    height: 45px;
+    color: var(--white);
+    background-color: var(--button);
+    font-size: 18pt;
+    padding-bottom: 2.5px;
+
+}
+
+.make {
+    padding-bottom: 15px;
+}
+
+/* ------------------------------------ */

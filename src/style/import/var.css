@@ -1,0 +1,11 @@
+:root {
+    --background: #1a1a1a;
+    --black: #000;
+    --light-grey: #2C2525;
+    --dark-grey: #0f0f0f;
+    --outline: #57dcbe;
+    --button: rgba(87,220, 190, .7);
+    --white: #fff;
+    --grey-white: rgba(255,255,255,.56);
+    --transparent: transparent;
+}
